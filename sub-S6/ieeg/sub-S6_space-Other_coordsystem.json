@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "Electrode positions as stored in the authors' FieldTrip elec structure (elec.chanpos, unit mm); the authors' electrode table 'Coordinates' column differs (max 17.718463568966634 mm) and is kept in sourcedata. The source does not name the coordinate system; the table's atlas labels (AFNI, AAL, Brainnetome, Yeo, JuBrain, VTPM, BrainWeb) are template-space look-ups as in the FieldTrip intracranial pipeline (Stolk et al. 2018), suggesting template (MNI) space, which is not verified."
+}

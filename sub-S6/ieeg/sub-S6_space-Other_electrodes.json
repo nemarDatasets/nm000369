@@ -1,0 +1,65 @@
+{
+  "name": {
+    "Description": "Electrode label (source label)"
+  },
+  "x": {
+    "Description": "x (mm), source elec.chanpos"
+  },
+  "y": {
+    "Description": "y (mm)"
+  },
+  "z": {
+    "Description": "z (mm)"
+  },
+  "size": {
+    "Description": "Not given per electrode (paper: 2.3 mm exposed diameter)"
+  },
+  "type": {
+    "Description": "Electrode type (paper)"
+  },
+  "material": {
+    "Description": "Not reported"
+  },
+  "discard": {
+    "Description": "Authors' electrode table column 'Discard' (1 = discarded)"
+  },
+  "epileptic": {
+    "Description": "Authors' electrode table column 'Epileptic' (1 = epileptic)"
+  },
+  "out_of_brain": {
+    "Description": "Authors' electrode table column 'Out of Brain'"
+  },
+  "notes": {
+    "Description": "Authors' electrode table column 'Notes'"
+  },
+  "AFNI": {
+    "Description": "Atlas label (with probability) from the authors' electrode table column 'AFNI'"
+  },
+  "AAL": {
+    "Description": "Atlas label (with probability) from the authors' electrode table column 'AAL'"
+  },
+  "Brainnetome": {
+    "Description": "Atlas label (with probability) from the authors' electrode table column 'Brainnetome'"
+  },
+  "Desikan_Killiany": {
+    "Description": "Atlas label (with probability) from the authors' electrode table column 'Desikan-Killiany'"
+  },
+  "Destrieux": {
+    "Description": "Atlas label (with probability) from the authors' electrode table column 'Destrieux'"
+  },
+  "Yeo7": {
+    "Description": "Atlas label (with probability) from the authors' electrode table column 'Yeo7'"
+  },
+  "Yeo17": {
+    "Description": "Atlas label (with probability) from the authors' electrode table column 'Yeo17'"
+  },
+  "JuBrain": {
+    "Description": "Atlas label (with probability) from the authors' electrode table column 'JuBrain'"
+  },
+  "VTPM": {
+    "Description": "Atlas label (with probability) from the authors' electrode table column 'VTPM'"
+  },
+  "BrainWeb": {
+    "Description": "Atlas label (with probability) from the authors' electrode table column 'BrainWeb'"
+  }
+}

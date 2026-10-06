@@ -1,0 +1,302 @@
+{
+ "S5_lh.pial.receipt.json": {
+  "dest": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG071/sourcedata/osf-z4hfm/S5_lh.pial",
+  "source_url": "https://osf.io/download/76y9u/",
+  "bytes": 4463027,
+  "upstream_bytes": 4463027,
+  "md5": "b6d46a92fc87758429e891a23b9a0af0",
+  "sha256": "78c6fa7a6f36b1e3a2a5fe2285d085bb8134b08e44595953a623375482a256ff",
+  "s3etag_computed": "b6d46a92fc87758429e891a23b9a0af0",
+  "expected": {
+   "md5": "b6d46a92fc87758429e891a23b9a0af0",
+   "sha256": "78c6fa7a6f36b1e3a2a5fe2285d085bb8134b08e44595953a623375482a256ff",
+   "s3etag": null,
+   "size": 4463027
+  },
+  "checks": {
+   "size": true,
+   "md5": true,
+   "sha256": true
+  },
+  "verified": true,
+  "parts": 1,
+  "part_bytes": 268435456,
+  "seconds": 12,
+  "finished_utc": "2026-10-06T21:26:54Z"
+ },
+ "S6_rh.pial.receipt.json": {
+  "dest": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG071/sourcedata/osf-z4hfm/S6_rh.pial",
+  "source_url": "https://osf.io/download/2hvcg/",
+  "bytes": 5356079,
+  "upstream_bytes": 5356079,
+  "md5": "69c05c3592bbc65ba359b34cd1577057",
+  "sha256": "d2277cf2ad6facf61fb8391ff9bd0a6e4f6b01d3b778931c4e8eea1c2114a11e",
+  "s3etag_computed": "69c05c3592bbc65ba359b34cd1577057",
+  "expected": {
+   "md5": "69c05c3592bbc65ba359b34cd1577057",
+   "sha256": "d2277cf2ad6facf61fb8391ff9bd0a6e4f6b01d3b778931c4e8eea1c2114a11e",
+   "s3etag": null,
+   "size": 5356079
+  },
+  "checks": {
+   "size": true,
+   "md5": true,
+   "sha256": true
+  },
+  "verified": true,
+  "parts": 1,
+  "part_bytes": 268435456,
+  "seconds": 5,
+  "finished_utc": "2026-10-06T21:27:33Z"
+ },
+ "S5_electable_11mm.xlsx.receipt.json": {
+  "dest": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG071/sourcedata/osf-z4hfm/S5_electable_11mm.xlsx",
+  "source_url": "https://osf.io/download/m78gh/",
+  "bytes": 18400,
+  "upstream_bytes": 18400,
+  "md5": "e7441265caccc4fae6fe19dd10946287",
+  "sha256": "e95675a3377dfb4535a09754a950c6ebaf3d57cf0b708933e9d940dc435b7056",
+  "s3etag_computed": "e7441265caccc4fae6fe19dd10946287",
+  "expected": {
+   "md5": "e7441265caccc4fae6fe19dd10946287",
+   "sha256": "e95675a3377dfb4535a09754a950c6ebaf3d57cf0b708933e9d940dc435b7056",
+   "s3etag": null,
+   "size": 18400
+  },
+  "checks": {
+   "size": true,
+   "md5": true,
+   "sha256": true
+  },
+  "verified": true,
+  "parts": 1,
+  "part_bytes": 268435456,
+  "seconds": 2,
+  "finished_utc": "2026-10-06T21:27:16Z"
+ },
+ "S5_raw_segmented.mat.receipt.json": {
+  "dest": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG071/sourcedata/osf-z4hfm/S5_raw_segmented.mat",
+  "source_url": "https://osf.io/download/qmsc4/",
+  "bytes": 37874579,
+  "upstream_bytes": 37874579,
+  "md5": "9575b2b46031c69622c608ee2b24df74",
+  "sha256": "fc3a78aa8223be4576d3e10b13d0b2ca09d51d1235366303aa211f9c0cc0792c",
+  "s3etag_computed": "9575b2b46031c69622c608ee2b24df74",
+  "expected": {
+   "md5": "9575b2b46031c69622c608ee2b24df74",
+   "sha256": "fc3a78aa8223be4576d3e10b13d0b2ca09d51d1235366303aa211f9c0cc0792c",
+   "s3etag": null,
+   "size": 37874579
+  },
+  "checks": {
+   "size": true,
+   "md5": true,
+   "sha256": true
+  },
+  "verified": true,
+  "parts": 1,
+  "part_bytes": 268435456,
+  "seconds": 5,
+  "finished_utc": "2026-10-06T21:27:37Z"
+ },
+ "S6_raw_segmented.mat.receipt.json": {
+  "dest": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG071/sourcedata/osf-z4hfm/S6_raw_segmented.mat",
+  "source_url": "https://osf.io/download/dtqky/",
+  "bytes": 137136212,
+  "upstream_bytes": 137136212,
+  "md5": "42526a146b614bf48ac0ac49209cbb22",
+  "sha256": "0f180050ccc16a4a07613b99fb517465bbe121ed85122959bf81762251c062be",
+  "s3etag_computed": "42526a146b614bf48ac0ac49209cbb22",
+  "expected": {
+   "md5": "42526a146b614bf48ac0ac49209cbb22",
+   "sha256": "0f180050ccc16a4a07613b99fb517465bbe121ed85122959bf81762251c062be",
+   "s3etag": null,
+   "size": 137136212
+  },
+  "checks": {
+   "size": true,
+   "md5": true,
+   "sha256": true
+  },
+  "verified": true,
+  "parts": 1,
+  "part_bytes": 268435456,
+  "seconds": 29,
+  "finished_utc": "2026-10-06T21:27:34Z"
+ },
+ "S6_electable_11mm.xlsx.receipt.json": {
+  "dest": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG071/sourcedata/osf-z4hfm/S6_electable_11mm.xlsx",
+  "source_url": "https://osf.io/download/z94qa/",
+  "bytes": 11405,
+  "upstream_bytes": 11405,
+  "md5": "2120a03254183a9ede754f63da7dadbb",
+  "sha256": "1098af980b83f9755f88f666cdc3355383f333cbd4088c90d2c2fdc4ca53ee54",
+  "s3etag_computed": "2120a03254183a9ede754f63da7dadbb",
+  "expected": {
+   "md5": "2120a03254183a9ede754f63da7dadbb",
+   "sha256": "1098af980b83f9755f88f666cdc3355383f333cbd4088c90d2c2fdc4ca53ee54",
+   "s3etag": null,
+   "size": 11405
+  },
+  "checks": {
+   "size": true,
+   "md5": true,
+   "sha256": true
+  },
+  "verified": true,
+  "parts": 1,
+  "part_bytes": 268435456,
+  "seconds": 1,
+  "finished_utc": "2026-10-06T21:28:09Z"
+ },
+ "S4_electable_11mm.xlsx.receipt.json": {
+  "dest": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG071/sourcedata/osf-z4hfm/S4_electable_11mm.xlsx",
+  "source_url": "https://osf.io/download/742gc/",
+  "bytes": 17063,
+  "upstream_bytes": 17063,
+  "md5": "4ffe7ef28db48bf51a3137714f722a5c",
+  "sha256": "830fe5fba7ec8dacf00329a4f59d2883bd7dad9022150074ab1f289df028bf8f",
+  "s3etag_computed": "4ffe7ef28db48bf51a3137714f722a5c",
+  "expected": {
+   "md5": "4ffe7ef28db48bf51a3137714f722a5c",
+   "sha256": "830fe5fba7ec8dacf00329a4f59d2883bd7dad9022150074ab1f289df028bf8f",
+   "s3etag": null,
+   "size": 17063
+  },
+  "checks": {
+   "size": true,
+   "md5": true,
+   "sha256": true
+  },
+  "verified": true,
+  "parts": 1,
+  "part_bytes": 268435456,
+  "seconds": 2,
+  "finished_utc": "2026-10-06T21:28:10Z"
+ },
+ "S5_rh.pial.receipt.json": {
+  "dest": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG071/sourcedata/osf-z4hfm/S5_rh.pial",
+  "source_url": "https://osf.io/download/gb6cs/",
+  "bytes": 4536359,
+  "upstream_bytes": 4536359,
+  "md5": "d93df7ee52afb366020b043ff315b133",
+  "sha256": "3dd57fb74096f8a2d0246a88569ed7291ca9c04ebb577de86e441ae446da96ab",
+  "s3etag_computed": "d93df7ee52afb366020b043ff315b133",
+  "expected": {
+   "md5": "d93df7ee52afb366020b043ff315b133",
+   "sha256": "3dd57fb74096f8a2d0246a88569ed7291ca9c04ebb577de86e441ae446da96ab",
+   "s3etag": null,
+   "size": 4536359
+  },
+  "checks": {
+   "size": true,
+   "md5": true,
+   "sha256": true
+  },
+  "verified": true,
+  "parts": 1,
+  "part_bytes": 268435456,
+  "seconds": 19,
+  "finished_utc": "2026-10-06T21:27:03Z"
+ },
+ "S4_rh.pial.receipt.json": {
+  "dest": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG071/sourcedata/osf-z4hfm/S4_rh.pial",
+  "source_url": "https://osf.io/download/dju4s/",
+  "bytes": 5398738,
+  "upstream_bytes": 5398738,
+  "md5": "d9a1fe069ec7a47addf25de04d9597ac",
+  "sha256": "252f62260519866e2600a169bc6c3564ca4e7522b42f787f1f66854e86edc2d2",
+  "s3etag_computed": "d9a1fe069ec7a47addf25de04d9597ac",
+  "expected": {
+   "md5": "d9a1fe069ec7a47addf25de04d9597ac",
+   "sha256": "252f62260519866e2600a169bc6c3564ca4e7522b42f787f1f66854e86edc2d2",
+   "s3etag": null,
+   "size": 5398738
+  },
+  "checks": {
+   "size": true,
+   "md5": true,
+   "sha256": true
+  },
+  "verified": true,
+  "parts": 1,
+  "part_bytes": 268435456,
+  "seconds": 7,
+  "finished_utc": "2026-10-06T21:27:33Z"
+ },
+ "S4_raw_segmented.mat.receipt.json": {
+  "dest": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG071/sourcedata/osf-z4hfm/S4_raw_segmented.mat",
+  "source_url": "https://osf.io/download/mgn6y/",
+  "bytes": 140310814,
+  "upstream_bytes": 140310814,
+  "md5": "99a981891e48ad847f62057638e6dac4",
+  "sha256": "58f4d40c1c33c61dfc55de0c189c5669f9b6b763a517391b1cd7e6e0aeb01ca5",
+  "s3etag_computed": "99a981891e48ad847f62057638e6dac4",
+  "expected": {
+   "md5": "99a981891e48ad847f62057638e6dac4",
+   "sha256": "58f4d40c1c33c61dfc55de0c189c5669f9b6b763a517391b1cd7e6e0aeb01ca5",
+   "s3etag": null,
+   "size": 140310814
+  },
+  "checks": {
+   "size": true,
+   "md5": true,
+   "sha256": true
+  },
+  "verified": true,
+  "parts": 1,
+  "part_bytes": 268435456,
+  "seconds": 25,
+  "finished_utc": "2026-10-06T21:27:09Z"
+ },
+ "S6_lh.pial.receipt.json": {
+  "dest": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG071/sourcedata/osf-z4hfm/S6_lh.pial",
+  "source_url": "https://osf.io/download/xwbz9/",
+  "bytes": 5356079,
+  "upstream_bytes": 5356079,
+  "md5": "adb5305b761f1ead26b4d6e97bb65ec0",
+  "sha256": "88217d646a878a209d1e1b343d4d6c21d4d050c5899d6bbbb8eb5506860b7115",
+  "s3etag_computed": "adb5305b761f1ead26b4d6e97bb65ec0",
+  "expected": {
+   "md5": "adb5305b761f1ead26b4d6e97bb65ec0",
+   "sha256": "88217d646a878a209d1e1b343d4d6c21d4d050c5899d6bbbb8eb5506860b7115",
+   "s3etag": null,
+   "size": 5356079
+  },
+  "checks": {
+   "size": true,
+   "md5": true,
+   "sha256": true
+  },
+  "verified": true,
+  "parts": 1,
+  "part_bytes": 268435456,
+  "seconds": 21,
+  "finished_utc": "2026-10-06T21:27:03Z"
+ },
+ "S4_lh.pial.receipt.json": {
+  "dest": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG071/sourcedata/osf-z4hfm/S4_lh.pial",
+  "source_url": "https://osf.io/download/n946u/",
+  "bytes": 5386858,
+  "upstream_bytes": 5386858,
+  "md5": "f2575dd5b0a07aee09df54fd7aa4c8e1",
+  "sha256": "05a8faefdbc8c3630d8e566aa8b5b5dc69dab27ca2252abf8074f483079359cb",
+  "s3etag_computed": "f2575dd5b0a07aee09df54fd7aa4c8e1",
+  "expected": {
+   "md5": "f2575dd5b0a07aee09df54fd7aa4c8e1",
+   "sha256": "05a8faefdbc8c3630d8e566aa8b5b5dc69dab27ca2252abf8074f483079359cb",
+   "s3etag": null,
+   "size": 5386858
+  },
+  "checks": {
+   "size": true,
+   "md5": true,
+   "sha256": true
+  },
+  "verified": true,
+  "parts": 1,
+  "part_bytes": 268435456,
+  "seconds": 4,
+  "finished_utc": "2026-10-06T21:28:12Z"
+ }
+}

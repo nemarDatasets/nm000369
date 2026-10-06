@@ -1,0 +1,52 @@
+{
+  "onset": {
+    "Description": "Start of the epoch within the concatenated epoched recording",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Epoch length",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Every row is one epoch (trial segment) of the source FieldTrip data",
+    "Levels": {
+      "epoch": "one trial segment"
+    }
+  },
+  "sample": {
+    "Description": "First sample of the epoch (0-based) in the BrainVision file"
+  },
+  "epoch_index": {
+    "Description": "1-based index of the trial in the source data.trial cell array"
+  },
+  "time_zero_sample": {
+    "Description": "Sample (0-based) at which the source trial time axis equals 0 s (source time axis starts at -1.5 s)"
+  },
+  "trialinfo_1": {
+    "Description": "Column 1 of the source FieldTrip data.trialinfo matrix, copied verbatim. The OSF release and the paper do not document the trialinfo columns; values are kept for users of the authors' analysis code."
+  },
+  "trialinfo_2": {
+    "Description": "Column 2 of the source FieldTrip data.trialinfo matrix, copied verbatim. The OSF release and the paper do not document the trialinfo columns; values are kept for users of the authors' analysis code."
+  },
+  "trialinfo_3": {
+    "Description": "Column 3 of the source FieldTrip data.trialinfo matrix, copied verbatim. The OSF release and the paper do not document the trialinfo columns; values are kept for users of the authors' analysis code."
+  },
+  "trialinfo_4": {
+    "Description": "Column 4 of the source FieldTrip data.trialinfo matrix, copied verbatim. The OSF release and the paper do not document the trialinfo columns; values are kept for users of the authors' analysis code."
+  },
+  "trialinfo_5": {
+    "Description": "Column 5 of the source FieldTrip data.trialinfo matrix, copied verbatim. The OSF release and the paper do not document the trialinfo columns; values are kept for users of the authors' analysis code."
+  },
+  "trialinfo_6": {
+    "Description": "Column 6 of the source FieldTrip data.trialinfo matrix, copied verbatim. The OSF release and the paper do not document the trialinfo columns; values are kept for users of the authors' analysis code."
+  },
+  "trialinfo_7": {
+    "Description": "Column 7 of the source FieldTrip data.trialinfo matrix, copied verbatim. The OSF release and the paper do not document the trialinfo columns; values are kept for users of the authors' analysis code."
+  },
+  "trialinfo_8": {
+    "Description": "Column 8 of the source FieldTrip data.trialinfo matrix, copied verbatim. The OSF release and the paper do not document the trialinfo columns; values are kept for users of the authors' analysis code."
+  },
+  "trialinfo_9": {
+    "Description": "Column 9 of the source FieldTrip data.trialinfo matrix, copied verbatim. The OSF release and the paper do not document the trialinfo columns; values are kept for users of the authors' analysis code."
+  }
+}

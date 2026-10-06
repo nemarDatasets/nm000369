@@ -1,0 +1,52 @@
+{
+  "Name": "Sensorimotor alpha and beta ECoG during movement imagery (Stolk et al. 2019, shared participants S4-S6)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Arjen Stolk",
+    "Loek Brinkman",
+    "Mariska J. Vansteensel",
+    "Erik Aarnoutse",
+    "Frans S.S. Leijten",
+    "Chris H. Dijkerman",
+    "Robert T. Knight",
+    "Floris P. de Lange",
+    "Ivan Toni"
+  ],
+  "HowToAcknowledge": "Cite Stolk A, Brinkman L, Vansteensel MJ, Aarnoutse E, Leijten FSS, Dijkerman CH, Knight RT, de Lange FP, Toni I (2019). Electrocorticographic dissociation of alpha and beta rhythmic activity in the human sensorimotor system. eLife 8:e48065. https://doi.org/10.7554/eLife.48065 ; data: https://osf.io/z4hfm/",
+  "Funding": [
+    "Nederlandse Organisatie voor Wetenschappelijk Onderzoek (NWO) 446-14-007 (A. Stolk)",
+    "European Commission 658868 (A. Stolk)"
+  ],
+  "EthicsApprovals": [
+    "Medical Ethical Committee of the University Medical Center Utrecht, reference number 12-075; informed consent according to institutional guidelines, in accordance with the declaration of Helsinki (Stolk et al. 2019)."
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.7554/eLife.48065",
+    "https://osf.io/z4hfm/",
+    "https://doi.org/10.1038/s41596-018-0009-6"
+  ],
+  "Keywords": [
+    "electrocorticography",
+    "ECoG",
+    "sensorimotor cortex",
+    "alpha",
+    "beta",
+    "motor imagery",
+    "traveling waves",
+    "epilepsy"
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://osf.io/z4hfm/",
+      "Version": "OSF osfstorage files as of 2026-10-06 (md5/sha256 in sourcedata/osf-z4hfm/acquisition_receipts.json)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "NEMAR iEEG curation campaign: harness/b2osf_ieeg071_convert.py + b2osf_ieeg071_enrich.py",
+      "Description": "FieldTrip trial segments written back-to-back to BrainVision without any processing (RecordingType=epoched); electrode table and labels from the authors' files."
+    }
+  ]
+}
