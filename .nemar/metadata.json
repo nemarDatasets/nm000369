@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Sensorimotor alpha and beta ECoG during movement imagery (Stolk et al. 2019, shared participants S4-S6)",
+  "description": "Electrocorticography (ECoG) recordings from three epilepsy patients (S4-S6) implanted with subdural grids and strips, acquired while they imagined grasping a cylinder with the left or right hand. The data are the subset of participants from Stolk et al. (2019) who consented to data sharing, and are released as unprocessed trial segments. The dataset supports study of alpha and beta rhythmic activity in the human sensorimotor cortex.",
+  "methods_description": "ECoG was recorded with a 128-channel Micromed system at 512 Hz (analog band-pass 0.15-134.4 Hz) using Ad-Tech subdural grids and strips with 10 mm spacing. Participants performed up to three sessions of 60 movement imagery trials. Electrodes were localised by fusing post-implantation CT with pre-operative T1 MRI and projecting onto FreeSurfer surfaces. Trial segments were stored back-to-back without filtering or re-referencing.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "Arjen Stolk": {
       "orcid": "0000-0003-3798-4923",
@@ -29,6 +34,31 @@
     },
     "Ivan Toni": {}
   },
+  "keywords": [
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "ECoG"
+    },
+    {
+      "term": "sensorimotor cortex"
+    },
+    {
+      "term": "alpha rhythm"
+    },
+    {
+      "term": "beta rhythm"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "epilepsy"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.7554/eLife.48065",
@@ -59,16 +89,17 @@
     {
       "funder_name": "European Commission",
       "award_number": "658868"
+    },
+    {
+      "funder_name": "Nederlandse Organisatie voor Wetenschappelijk Onderzoek (NWO)",
+      "award_number": "433-09-248"
     }
   ],
-  "title": "Sensorimotor alpha and beta ECoG during movement imagery (Stolk et al. 2019, shared participants S4-S6)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "663 MB (15 files)"
   ],
@@ -82,38 +113,8 @@
     ".tsv",
     ".vhdr",
     ".vmrk",
-    ".xlsx"
+    ".xlsx",
+    ".yml"
   ],
-  "description": "Electrocorticography (ECoG) recordings from three epilepsy patients (S4-S6) implanted with subdural grids and strips, acquired while they imagined grasping a cylinder with the left or right hand. The dataset is the subset of participants from Stolk et al. (2019) who consented to data sharing, released as trial segments. It supports investigation of alpha and beta rhythmic activity in human sensorimotor cortex during movement imagery.",
-  "methods_description": "Recordings used a 128-channel Micromed system (22 bits, analog band-pass 0.15-134.4 Hz, 512 Hz sampling) with Ad-Tech subdural grids and strips (10 mm spacing, 2.3 mm exposed diameter). Patients performed a movement imagery task of 60 trials per session. Epochs with overt movements or distracting events were excluded by the authors. Trial segments are stored back-to-back in BrainVision files without filtering, re-referencing, or resampling.",
-  "keywords": [
-    {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
-    },
-    {
-      "term": "ECoG"
-    },
-    {
-      "term": "Sensorimotor Cortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D066191"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "alpha rhythm"
-    },
-    {
-      "term": "beta rhythm"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    }
-  ],
-  "source_hash": "75ff947affcff19a85141fbd7c11c2846c7b128b9ddd587355d0f2d0b7b440a8"
+  "source_hash": "287a3e9e2ba968741a10a2c443be4990ffe9f2ea0672ea36af138b018aa88ee0"
 }
