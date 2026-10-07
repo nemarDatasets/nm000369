@@ -1,6 +1,7 @@
 {
   "TaskName": "motorimagery",
   "TaskDescription": "Movement imagery: participants imagined grasping the middle third of a black-white cylinder shown on screen with the left or right hand (alternating blocks of 10 trials), then reported the imagined grip (overhand/underhand) on a response screen; 60 trials per session (Stolk et al. 2019).",
+  "Instructions": "Imagine grasping the middle third of the black-white cylinder with the cued (left or right) hand; at the response screen indicate whether the thumb was on the black or the white part of the cylinder at the end of the imagined movement, by pressing the corresponding (left or right) button with the left or right thumb on a button box held with both hands (Stolk et al. 2019, Results and Methods 'Movement imagery task'; verbatim instructions not published).",
   "SamplingFrequency": 512.0,
   "PowerLineFrequency": 50,
   "SoftwareFilters": "n/a",
@@ -27,5 +28,8 @@
   "EpochLength": 5.001953125,
   "RecordingDuration": 900.3515625,
   "InstitutionName": "University Medical Center Utrecht",
-  "iEEGPlacementScheme": "Clinically determined subdural grids and strips (seizure-onset localisation)"
+  "InstitutionAddress": "Utrecht, The Netherlands",
+  "iEEGPlacementScheme": "Clinically determined subdural grids and strips (seizure-onset localisation)",
+  "iEEGElectrodeGroups": "Subdural grids and strips (Ad-Tech); group membership per electrode not released",
+  "iEEGGround": "n/a"
 }

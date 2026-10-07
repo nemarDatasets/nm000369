@@ -14,10 +14,12 @@
     "Floris P. de Lange",
     "Ivan Toni"
   ],
+  "Acknowledgements": "The authors thank the patients and their families for their participation and A Bastos, CW Hoy, and R Oostenveld for invaluable discussions and comments on previous versions of this article. AS was supported by Rubicon grant 446-14-007 from NWO and Marie Sklodowska-Curie Global Fellowship 658868 from the European Union. LB was supported by Brain and Cognition grant 433-09-248 from NWO awarded to IT. (Stolk et al. 2019, Acknowledgements)",
   "HowToAcknowledge": "Cite Stolk A, Brinkman L, Vansteensel MJ, Aarnoutse E, Leijten FSS, Dijkerman CH, Knight RT, de Lange FP, Toni I (2019). Electrocorticographic dissociation of alpha and beta rhythmic activity in the human sensorimotor system. eLife 8:e48065. https://doi.org/10.7554/eLife.48065 ; data: https://osf.io/z4hfm/",
   "Funding": [
     "Nederlandse Organisatie voor Wetenschappelijk Onderzoek (NWO) 446-14-007 (A. Stolk)",
-    "European Commission 658868 (A. Stolk)"
+    "European Commission 658868 (A. Stolk)",
+    "Nederlandse Organisatie voor Wetenschappelijk Onderzoek (NWO) 433-09-248 (I. Toni)"
   ],
   "EthicsApprovals": [
     "Medical Ethical Committee of the University Medical Center Utrecht, reference number 12-075; informed consent according to institutional guidelines, in accordance with the declaration of Helsinki (Stolk et al. 2019)."
@@ -25,7 +27,9 @@
   "ReferencesAndLinks": [
     "https://doi.org/10.7554/eLife.48065",
     "https://osf.io/z4hfm/",
-    "https://doi.org/10.1038/s41596-018-0009-6"
+    "https://doi.org/10.1038/s41596-018-0009-6",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6785220/",
+    "http://www.fieldtriptoolbox.org"
   ],
   "Keywords": [
     "electrocorticography",

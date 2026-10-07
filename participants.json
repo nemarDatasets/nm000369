@@ -3,23 +3,52 @@
     "Description": "Participant label as used in the source files and the paper (S4, S5, S6)"
   },
   "age": {
-    "Description": "Not released per participant (paper: 11 participants aged 14-45 years)",
+    "Description": "Age in years. Not released per participant; source silent for S4-S6. Cohort (Stolk et al. 2019, Methods 'Participants'): 11 implanted participants aged 14-45 years (9 analysed behaviourally, 7 with sensorimotor coverage).",
     "Units": "year"
   },
   "sex": {
-    "Description": "Not released per participant (paper: 7 of 11 participants male)",
+    "Description": "Sex. Not released per participant; source silent for S4-S6. Cohort (Stolk et al. 2019, Methods 'Participants'): 7 of 11 participants male.",
     "Levels": {
       "M": "male",
       "F": "female"
     }
   },
   "handedness": {
-    "Description": "Not reported"
+    "Description": "Handedness. Not reported in the paper (Stolk et al. 2019) or the OSF record z4hfm.",
+    "Levels": {
+      "R": "right",
+      "L": "left",
+      "A": "ambidextrous"
+    }
   },
   "source_label": {
-    "Description": "Participant label in the paper and the OSF file names"
+    "Description": "Participant label in the paper (S1-S7 notation of Stolk et al. 2019) and the OSF file names"
   },
   "pathology": {
-    "Description": "Clinical indication for the subdural implantation (paper)"
+    "Description": "Clinical indication for the subdural implantation: localisation of the seizure onset zone for subsequent surgical resection (Stolk et al. 2019, Methods 'Participants')"
+  },
+  "implant_type": {
+    "Description": "Implant type: subdural grid and strip electrode arrays (Ad-Tech, Racine, USA; 10 mm inter-electrode spacing, 2.3 mm exposed diameter), placed at the University Medical Center Utrecht (Stolk et al. 2019, Methods)",
+    "Levels": {
+      "ECoG": "electrocorticography, subdural grids and strips"
+    }
+  },
+  "implanted_hemisphere": {
+    "Description": "Hemisphere covered by the electrode arrays, derived from this release: sign of x of every electrode in *_electrodes.tsv (source FieldTrip elec.chanpos) and the hemisphere suffix of the authors' AAL atlas labels (all electrodes *_R for S4, all *_L for S5 and S6). Cohort (paper): 8 of 11 left, 3 right.",
+    "Levels": {
+      "L": "left",
+      "R": "right"
+    }
+  },
+  "n_electrodes": {
+    "Description": "Number of electrodes (= ECoG channels) in the released data of this participant (*_electrodes.tsv rows, *_ieeg.json ECOGChannelCount). Cohort (paper): 81.3 +/- 11.2 electrodes (mean +/- SEM) over the 11 participants.",
+    "Units": "count"
+  },
+  "paper_neural_analysis": {
+    "Description": "Role of the participant in the paper's neural analyses (Stolk et al. 2019, Results: 'This analysis yielded ... peak activity electrodes for participants S1 - S5 ... Due to limited sensorimotor coverage, the number of electrodes could not be narrowed down for participant S6, and the four stimulation-positive electrodes in this participant were used for the analysis of temporal dynamics only.')",
+    "Levels": {
+      "local_maxima": "alpha/beta local-maxima electrodes identified (participants S1-S5)",
+      "temporal_dynamics_only": "limited sensorimotor coverage; the four stimulation-positive electrodes used for the temporal-dynamics analysis only (participant S6)"
+    }
   }
 }
