@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Sensorimotor alpha and beta ECoG during movement imagery (Stolk et al. 2019, shared participants S4-S6)",
-  "description": "Electrocorticography (ECoG) recordings from three epilepsy patients (S4-S6) implanted with subdural grids and strips, acquired while they imagined grasping a cylinder with the left or right hand. The data are the subset of participants from Stolk et al. (2019) who consented to data sharing, released as trial segments. The dataset supports study of alpha and beta rhythmic activity in the human sensorimotor system.",
-  "methods_description": "ECoG was recorded with a 128-channel Micromed system (512 Hz, analog band-pass 0.15-134.4 Hz) from Ad-Tech subdural grids and strips with 10 mm spacing. Participants performed up to three sessions of 60 motor imagery trials. Electrodes were localized by fusing post-implantation CT with pre-operative T1 MRI and projecting onto FreeSurfer surfaces. Trial segments are stored without filtering or re-referencing.",
+  "description": "Subdural electrocorticography (ECoG) recorded at the University Medical Center Utrecht from three epilepsy patients (S4-S6) who imagined grasping a cylinder with the left or right hand. The data are the subset of participants from Stolk et al. (2019) who gave permission to share, and they support investigation of dissociated alpha and beta rhythmic activity in the human sensorimotor system. Data are released as unprocessed trial segments, stored as epoched recordings with electrode positions and author-provided atlas labels.",
+  "methods_description": "ECoG was acquired with a 128-channel Micromed system (512 Hz, analog band-pass 0.15-134.4 Hz) using Ad-Tech subdural grids and strips with 10 mm spacing. Participants performed up to three sessions of 60 movement imagery trials, imagining grasping a tilted cylinder with the left or right hand and then reporting the thumb position on a response screen. Electrodes were localised by fusing post-implantation CT with pre-operative T1 MRI and projecting onto FreeSurfer surfaces. Trial segments were written to BrainVision (or NWB) without filtering, re-referencing or resampling.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -44,16 +44,16 @@
       "term": "ECoG"
     },
     {
-      "term": "Motor imagery"
+      "term": "motor imagery"
     },
     {
-      "term": "Sensorimotor cortex"
+      "term": "sensorimotor cortex"
     },
     {
-      "term": "Alpha rhythm"
+      "term": "alpha rhythm"
     },
     {
-      "term": "Beta rhythm"
+      "term": "beta rhythm"
     },
     {
       "term": "Epilepsy",
@@ -86,15 +86,18 @@
   "funding_references": [
     {
       "funder_name": "Nederlandse Organisatie voor Wetenschappelijk Onderzoek (NWO)",
-      "award_number": "446-14-007"
+      "award_number": "446-14-007",
+      "award_title": "Rubicon grant"
     },
     {
       "funder_name": "European Commission",
-      "award_number": "658868"
+      "award_number": "658868",
+      "award_title": "Marie Sklodowska-Curie Global Fellowship"
     },
     {
       "funder_name": "Nederlandse Organisatie voor Wetenschappelijk Onderzoek (NWO)",
-      "award_number": "433-09-248"
+      "award_number": "433-09-248",
+      "award_title": "Brain and Cognition grant"
     }
   ],
   "resource_type_general": "Dataset",
