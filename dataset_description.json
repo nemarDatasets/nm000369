@@ -52,5 +52,7 @@
       "Name": "NEMAR iEEG curation campaign: harness/b2osf_ieeg071_convert.py + b2osf_ieeg071_enrich.py",
       "Description": "FieldTrip trial segments written back-to-back to BrainVision without any processing (RecordingType=epoched); electrode table and labels from the authors' files."
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000369",
+  "Version": "1.0.0"
 }
