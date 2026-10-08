@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Sensorimotor alpha and beta ECoG during movement imagery (Stolk et al. 2019, shared participants S4-S6)",
-  "description": "Electrocorticography (ECoG) recordings from three epilepsy patients (S4-S6) implanted with subdural grids and strips, acquired while they imagined grasping a cylinder with the left or right hand. The data are the subset of participants from Stolk et al. (2019) who consented to data sharing, and are released as unprocessed trial segments. The dataset supports study of alpha and beta rhythmic activity in the human sensorimotor cortex.",
-  "methods_description": "ECoG was recorded with a 128-channel Micromed system at 512 Hz (analog band-pass 0.15-134.4 Hz) using Ad-Tech subdural grids and strips with 10 mm spacing. Participants performed up to three sessions of 60 movement imagery trials. Electrodes were localised by fusing post-implantation CT with pre-operative T1 MRI and projecting onto FreeSurfer surfaces. Trial segments were stored back-to-back without filtering or re-referencing.",
+  "description": "Electrocorticography (ECoG) recordings from three epilepsy patients (S4-S6) implanted with subdural grids and strips, acquired while they imagined grasping a cylinder with the left or right hand. The data are the subset of participants from Stolk et al. (2019) who consented to data sharing, released as trial segments. The dataset supports study of alpha and beta rhythmic activity in the human sensorimotor system.",
+  "methods_description": "ECoG was recorded with a 128-channel Micromed system (512 Hz, analog band-pass 0.15-134.4 Hz) from Ad-Tech subdural grids and strips with 10 mm spacing. Participants performed up to three sessions of 60 motor imagery trials. Electrodes were localized by fusing post-implantation CT with pre-operative T1 MRI and projecting onto FreeSurfer surfaces. Trial segments are stored without filtering or re-referencing.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -44,19 +44,21 @@
       "term": "ECoG"
     },
     {
-      "term": "sensorimotor cortex"
+      "term": "Motor imagery"
     },
     {
-      "term": "alpha rhythm"
+      "term": "Sensorimotor cortex"
     },
     {
-      "term": "beta rhythm"
+      "term": "Alpha rhythm"
     },
     {
-      "term": "motor imagery"
+      "term": "Beta rhythm"
     },
     {
-      "term": "epilepsy"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     }
   ],
   "related_identifiers": [
@@ -116,5 +118,5 @@
     ".xlsx",
     ".yml"
   ],
-  "source_hash": "287a3e9e2ba968741a10a2c443be4990ffe9f2ea0672ea36af138b018aa88ee0"
+  "source_hash": "316df8a70270ca6e86dc73de2a789165a7f0279f560ac8767d6b1264faa106ab"
 }
