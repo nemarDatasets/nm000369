@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000369-blue)](https://doi.org/10.82901/nemar.nm000369)
+
 # Sensorimotor alpha and beta ECoG during movement imagery (Stolk et al. 2019) - participants S4, S5, S6
 
 ## Overview
