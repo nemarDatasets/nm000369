@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Stolk-2019-electrocorticographic-10.7554/elife.48065",
+  "title": "Sensorimotor alpha and beta ECoG during movement imagery (Stolk et al. 2019, shared participants S4-S6)",
   "description": "Electrocorticographic (ECoG) recordings from three epilepsy patients (S4, S5, S6) implanted with subdural grids and strips at the University Medical Center Utrecht, who performed a movement imagery task in which they imagined grasping a cylinder with the left or right hand. The data are a subset of the participants reported in Stolk et al. (2019), who studied how alpha and beta rhythmic activity dissociate in the human sensorimotor system. They are released as unprocessed trial segments, stored as epoched recordings with electrode positions and author-provided electrode annotations.",
   "methods_description": "ECoG was recorded with a 128-channel Micromed system (22 bits, analog band-pass 0.15-134.4 Hz, 512 Hz sampling) using Ad-Tech subdural grids and strips with 10 mm spacing. Participants performed up to three sessions of 60 movement imagery trials. Electrodes were localised by fusing post-implantation CT with pre-operative T1 MRI and projecting onto FreeSurfer surfaces. No filtering, re-referencing or resampling was applied to the shared trial segments.",
   "license": "CC-BY-4.0",
@@ -118,5 +118,5 @@
     ".xlsx",
     ".yml"
   ],
-  "source_hash": "39f16451fca26f9819fbc55c619601bdfd5ec355f6dce6dfd9b7eaca15096595"
+  "source_hash": "8bef0d2b53d75aea4ffa36a19b231d4b192ea6cfbf38b3ba2b9ae3081e4f4167"
 }
